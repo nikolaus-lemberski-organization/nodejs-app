@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nodejs-app
+  annotations:
+    backstage.io/kubernetes-id: nodejs-app
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: nikolaus-lemberski-organization/nodejs-app
+spec:
+  type: api
+  system: apps
+  lifecycle: production
+  owner: admin
